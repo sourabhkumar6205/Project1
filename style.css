@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1674bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: rgba(224, 6, 6, 0.674);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(21, 234, 6, 0.859);
+    text-align: center;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #0b0fd7;
+    border-radius: 6px;
+  }
+  
+  #strength-bar {
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: width 0.3s;
+  }
+  
+  #feedback {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
